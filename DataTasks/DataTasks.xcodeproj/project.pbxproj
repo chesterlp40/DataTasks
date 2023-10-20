@@ -15,6 +15,7 @@
 		86A3D8FC2AE22F860043D341 /* DataTasksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A3D8FB2AE22F860043D341 /* DataTasksTests.swift */; };
 		86A3D9062AE22F860043D341 /* DataTasksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A3D9052AE22F860043D341 /* DataTasksUITests.swift */; };
 		86A3D9082AE22F860043D341 /* DataTasksUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A3D9072AE22F860043D341 /* DataTasksUITestsLaunchTests.swift */; };
+		86A3D9192AE230810043D341 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A3D9182AE230810043D341 /* Task.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		86A3D9012AE22F860043D341 /* DataTasksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataTasksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		86A3D9052AE22F860043D341 /* DataTasksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTasksUITests.swift; sourceTree = "<group>"; };
 		86A3D9072AE22F860043D341 /* DataTasksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTasksUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		86A3D9182AE230810043D341 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +152,7 @@
 			isa = PBXGroup;
 			children = (
 				86A3D8EC2AE22F850043D341 /* Item.swift */,
+				86A3D9182AE230810043D341 /* Task.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -292,6 +295,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86A3D9192AE230810043D341 /* Task.swift in Sources */,
 				86A3D8EB2AE22F850043D341 /* ContentView.swift in Sources */,
 				86A3D8ED2AE22F850043D341 /* Item.swift in Sources */,
 				86A3D8E92AE22F850043D341 /* DataTasksApp.swift in Sources */,
